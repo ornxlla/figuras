@@ -18,4 +18,7 @@ public class Rectangulo {
 		return "Rectangulo [ancho=" + ancho + ", alto=" + alto + "]";
 	}
 	
+	public Double getArea(){
+		return this.ancho * this.alto;
+	}
 }
